@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("./assets/artwork.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    color: aliceblue;
+    font-size: 2.2rem;
+    font-weight: 900;
+   
+  }
+#favlistitem{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#outerbox{
+    border: 2px solid rgb(17, 45, 165);
+    margin: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+#innerbox {
+    margin: 10px;
+}
+h5{
+    margin-left: 10px;
+}
+button{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+#innerbox img {
+    height:300px;
+    width:200px;
+  }
+
+  
+  .div-nav{
+    display: flex;
+   
+    margin-left: 500px;
+  }
+  #home{
+    color: rgb(3, 62, 134);
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: 800;
+    background-color: gainsboro;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  #home:hover{
+    
+    color: rgb(72, 147, 239);
+  }
